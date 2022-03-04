@@ -30,3 +30,6 @@ m_veh   = 130 #(kg)
 m_non   = 110 #(kg)
 dur     = 3 #(seconds)
 I_s     = 240 #(seconds)
+
+#order of solving: get MR and Mass Fractions -> then get (c), then get flowrate (m_dot), then get Thrust (T), then get total impulse (I_t), then get Acceleration (F=ma)
+
